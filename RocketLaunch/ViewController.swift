@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func LaunchPressed(_ sender: Any) {
         LaunchView.isHidden = false
         player?.play()
-        
+//
         UIView.animate(withDuration: 3.0, animations: {
             var rocketFrame = self.rocketWifhStreamView.frame
             rocketFrame.origin.y = 70
